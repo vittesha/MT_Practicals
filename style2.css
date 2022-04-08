@@ -1,0 +1,77 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+body{
+    background-color: rgb(57, 201, 201);
+}
+.container-fluid{
+    width: 410px;
+    margin: 50px auto;
+    padding:10px;
+}
+.inputs{
+    padding: 2rem 0 2rem 0;
+    text-align:center;
+    justify-content: center;
+    background-color: white;
+}
+.inputs input[type="text"]{
+    height:3.5rem;
+    width:20rem;
+    background-color: darkseagreen;
+    font-size: 1.1rem;
+    font-weight:bold;
+    background: transparent;
+    border:2px solid black;
+    border-radius:2px;
+    margin-right:4px;
+    padding:10px;
+}
+.inputs input[type="submit"]
+{
+    height:3.2rem;
+    width:6.5rem;
+    background-color: rgb(38, 14, 252);
+    font-weight:bold;
+    color:rgb(255, 255, 255);
+    font-size:1.2rem;
+    margin-top:20px;
+    border:none;
+    border-radius:2px;
+}
+.display{
+    text-align: center;
+    width:400px;
+    color:#000000;
+}
+.wrapper{
+    margin:0 9rem;
+    background: white;
+    height: 45vh;
+    margin: 50px auto;
+    border-radius: 2px;
+}
+.wrapper h2{
+    padding:5px 0;
+    background:#0548b5;
+    color:white;
+    font-family:sans-serif;
+    text-align: center;
+}
+.wrapper p{
+    margin:20px 50px;
+    margin-right:20px;
+    text-align:left;
+    color:#04214c;
+    font-size:23px;
+}
+.wrapper p span{
+    color:#ef6df3;
+    font-size:25px;
+}
+.wrapper h2 span{
+    font-size:26px;
+    color:#b230e6;
+}
