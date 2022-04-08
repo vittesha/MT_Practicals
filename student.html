@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .special{
+            font-size:30px;
+            font-weight: 700;
+        }
+        .container{
+            width:1300px;
+            height:500px;
+            position:absolute;
+            top:30%;
+            left:50%;
+            margin-top:-100px;
+            margin-left:-150px;
+            
+        }
+        .item{
+            width:200px;
+            background-color: #8d49a8;
+            padding: 14px 14px;
+            font-size: 29px;
+            text-align: center;
+            margin: 30px 30px; 
+        }
+        .new{
+        background-color: rgb(102, 8, 224);
+        padding: 20px;
+        text-align: center;
+        font-size:30px;
+        position: relative;
+        }
+    </style>
+    <script type=text/javascript>
+        window.onload = function(){
+           document.getElementById('Login').onclick = function(e){
+               alert("Welcome "+ document.getElementById("name").value);
+               return false;
+           }
+        }
+    </script>
+</head>
+<body>
+    <h1 class="new">STUDENT LOGIN PAGE</h1>
+    <div class="container">
+    <p class="special">Student name :  <input type="text" id="name" Student name="name" required placeholder="ABC"></p>
+    <p class="special">Password :  <input type="password" name="password" id="password" required></p>
+    <p><input type="button" id="Login" value="Login" class="item"></p>
+    </div>
+</body>
+</html>
